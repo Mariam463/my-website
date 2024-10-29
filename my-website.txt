@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Product Catalog</title>
+  <link href="https://fonts.googleapis.com/css2?y=bodoni+moda:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <div class="logo">
+            <img src="https://www.dropbox.com/scl/fi/f1a715nv21foqwe6w6xff/Photo-28-10-2024-17-08-32.jpg?rlkey=y2st5bus0p5n12anlze2sxed5&st=r14ln4gs&raw=1" alt="Brand Logo" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#winter">Winter Collection</a></li>
+                <li><a href="#summer">Summer Collection</a></li>
+                <li><a href="#spring">bags Collection</a></li>
+                <li><a href="#fall">Fall Collection</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Filters and Search Bar -->
+    <section class="filter-bar">
+        <input type="text" id="search" placeholder="Search products...">
+        <select id="price-filter">
+            <option value="all">All Prices</option>
+            <option value="under50">Under $50</option>
+            <option value="50to100">$50 - $100</option>
+            <option value="over100">Over $100</option>
+        </select>
+        <select id="rating-filter">
+            <option value="all">All Ratings</option>
+            <option value="4">4 Stars & Up</option>
+            <option value="3">3 Stars & Up</option>
+        </select>
+    </section>
+
+    <!-- Winter Collection -->
+    <section id="winter" class="collection" data-collection="winter">
+        <h2>Winter Collection</h2>
+        <div class="item">
+            <img src="winter-jacket.jpg" alt="Winter set" class="product-image">
+            <h3>coming soon</h3>
+            <p>winter items.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.8 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #000; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #ff0000; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #00ff00; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item sold-out">
+            <img src="wool-scarf.jpg" alt="Wool Scarf" class="product-image">
+            <h3>Wool Scarf <span class="sold-out-text">(Sold Out)</span></h3>
+            <p>Soft and stylish wool scarf for winter.</p>
+            <p class="price">$29.99</p>
+            <p class="rating">4.6 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #000; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #ff0000; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart" disabled>Sold Out</button>
+        </div>
+        <!-- Additional Winter Items... -->
+    </section>
+
+    <!-- Summer Collection -->
+    <section id="summer" class="collection" data-collection="summer">
+        <h2>Summer Collection</h2>
+        <div class="item">
+            <img src="https://www.dropbox.com/scl/fi/yd0focydccn0v9qhk3ysr/Photo-19-09-2024-13-56-45.jpg?rlkey=5twp9b2i9rlvo4hrub4raw4mx&st=7m7tcm0d&raw=1" alt="elegant set" class="product-image">
+            <h3>dress</h3>
+            <p>super jessica dress .</p>
+            <p class="price">$22.00</p>
+            <p class="rating">4.5 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #f4d2d1; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #dd9586; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #be515a; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #8f4e88; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #1d4d8b; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #024e86; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #0d1932; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #edeee8; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="https://www.dropbox.com/scl/fi/hkybb1czy7xqu8ke0bq0b/Photo-19-09-2024-14-02-49.jpg?rlkey=71db75oy2tk6mqc14ya6dozz5&st=y0izto7c&raw=1" alt="Sunglasses" class="product-image">
+            <h3>khimar</h3>
+            <p>khimar 3 layers crepe georgette.</p>
+            <p class="price">$22.00</p>
+            <p class="rating">4.7 stars</p>
+            <div class="colors">
+<span class="color" style="background-color: #000; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #a6a6a6; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #bda78f; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #e6cdbb; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #7e4c56; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #775377; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #671146; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #oc37be; border-radius: 50%;"></span>
+              <span class="color" style="background-color: #6ca097; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Additional Summer Items... -->
+    </section>
+
+    <!-- Spring Collection -->
+    <section id="bags" class="collection" data-collection="bags">
+        <h2>bags</h2>
+        <div class="item">
+            <img src="floral-dress.jpg" alt="bags" class="product-image">
+            <h3>coming soon</h3>
+            <p>bags comins soon.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.9 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #ffb6c1; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #ff4500; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="light-jacket.jpg" alt="Light Jacket" class="product-image">
+            <h3>bag</h3>
+            <p>bags coming soon.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.4 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #add8e6; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #ffc0cb; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Additional Spring Items... -->
+    </section>
+
+    <!-- Fall Collection -->
+    <section id="fall" class="collection" data-collection="fall">
+        <h2>Fall Collection</h2>
+        <div class="item">
+            <img src="fall-coat.jpg" alt="Fall Coat" class="product-image">
+            <h3>Fall set</h3>
+            <p>coming soon.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.6 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #8b4513; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #deb887; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item sold-out">
+            <img src="beanie.jpg" alt="Beanie" class="product-image">
+            <h3>fall set <span class="sold-out-text">(Sold Out)</span></h3>
+            <p>coming soon.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.3 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #000; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #f5deb3; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart" disabled>Sold Out</button>
+        </div>
+        <!-- Additional Fall Items... -->
+    </section>
+
+    <!-- Accessories Collection -->
+    <section id="accessories" class="collection" data-collection="accessories">
+        <h2>Accessories</h2>
+        <div class="item">
+            <img src="necklace.jpg" alt="Necklace" class="product-image">
+            <h3>accesories</h3>
+            <p>coming soon.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.7 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #ff6347; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #20b2aa; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="bracelet.jpg" alt="Bracelet" class="product-image">
+<h3>gloves</h3>
+            <p>coming soon.</p>
+            <p class="price">$0.00</p>
+            <p class="rating">4.5 stars</p>
+            <div class="colors">
+                <span class="color" style="background-color: #ff1493; border-radius: 50%;"></span>
+                <span class="color" style="background-color: #dda0dd; border-radius: 50%;"></span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Additional Accessories... -->
+    </section>
+
+    <!-- Cart Section -->
+    <div class="cart">
+        <h3>Your Cart</h3>
+        <div class="cart-items"></div>
+        <button id="checkout">Proceed to Checkout</button>
+    </div>
+
+    <!-- Footer with Social Media Links -->
+    <footer>
+        <h3>Connect with Us</h3>
+        <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </div>
+        <div class="newsletter">
+            <h4>Subscribe to our newsletter</h4>
+            <input type="email" id="email" placeholder="Enter your email">
+            <button id="subscribe">Subscribe</button>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+$(document).ready(function () {
+    // Initialize Cart
+    let cartItems = [];
+
+    // Filter Functionality
+    $("#collection, #sort").on("change", function () {
+        const collectionFilter = $("#collection").val();
+        const sortFilter = $("#sort").val();
+
+        $(".collection .item").each(function () {
+            const itemCollection = $(this).parent().data("collection");
+            if (collectionFilter === "all" || itemCollection === collectionFilter) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
+
+        // Sort Functionality
+        if (sortFilter === "price-asc") {
+            sortItemsByPrice(true);
+        } else if (sortFilter === "price-desc") {
+            sortItemsByPrice(false);
+        }
+    });
+
+    // Carousel Functionality
+    $(".item .carousel img").on("click", function () {
+        $(this).toggleClass("hidden");
+        $(this).siblings("img").toggleClass("hidden");
+    });
+
+    // Add to Cart Functionality
+    $(".add-to-cart").on("click", function () {
+        const itemName = $(this).siblings("h3").text();
+        const itemPrice = $(this).siblings(".price").text();
+        const isSoldOut = $(this).closest('.item').hasClass('sold-out');
+
+        if (isSoldOut) {
+            alert("This item is sold out!");
+            return;
+        }
+
+        cartItems.push({ name: itemName, price: itemPrice });
+        updateCart();
+    });
+
+    // Update the Cart UI
+    function updateCart() {
+        $(".cart-items").empty();
+        if (cartItems.length === 0) {
+            $(".cart-items").append("<p>Your cart is empty.</p>");
+            $("#checkout").prop("disabled", true); // Disable checkout if empty
+            return;
+        }
+
+        cartItems.forEach((item) => {
+            $(".cart-items").append(`<p>${item.name}: ${item.price}</p>`);
+        });
+
+        $("#checkout").prop("disabled", false); // Enable checkout if there are items
+        calculateTotal();
+    }
+
+    // Calculate total price in the cart
+    function calculateTotal() {
+        let total = 0;
+        cartItems.forEach((item) => {
+            const price = parseFloat(item.price.replace("$", "")); // Remove the dollar sign and parse
+            total += price;
+        });
+        $(".cart-items").append(`<p><strong>Total: $${total.toFixed(2)}</strong></p>`);
+    }
+
+    // Sort Items by Price Functionality
+    function sortItemsByPrice(ascending) {
+        const itemsArray = $(".collection .item").toArray();
+        itemsArray.sort((a, b) => {
+            const priceA = parseFloat($(a).find('.price').text().replace("$", ""));
+            const priceB = parseFloat($(b).find('.price').text().replace("$", ""));
+            return ascending ? priceA - priceB : priceB - priceA;
+        });
+
+        $(".collection").html(itemsArray); // Update the DOM with sorted items
+    }
+
+    // Checkout Functionality
+    $("#checkout").on("click", function () {
+        if (cartItems.length > 0) {
+            alert("Proceeding to checkout with the following items:\n" + cartItems.map(item => `${item.name}: ${item.price}`).join("\n"));
+        } else {
+            alert("Your cart is empty. Please add items to proceed.");
+        }
+    });
+
+    // Newsletter Subscription
+    $("#subscribe").on("click", function () {
+        const email = $("#email").val();
+        if (email) {
+            alert("Subscribed with " + email);
+            $("#email").val(""); // Clear email input
+        } else {
+            alert("Please enter a valid email.");
+        }
+    });
+
+    // Sold-Out Indicator
+    $(".sold-out").each(function() {
+        $(this).find(".add-to-cart").prop("disabled", true); // Disable button for sold-out items
+        $(this).append("<p class='sold-out-message'>Sold Out</p>"); // Add visual indicator
+    });
+});
+
+
+
+@@ -0,0 +1,288 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'bodoni moda', serif;
+    line-height: 1.6;
+    background-color: #f5efeb; /* Light gray background for contrast */
+    color: #567c8d;
+}
+
+/* Header Styles */
+header {
+    background-color: #2f4156; /* Dark background for elegance */
+    color: white;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+header .logo img {
+    max-width: 120px; /* Adjust logo size for better visibility */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #f5efeb;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+}
+
+nav a:hover {
+    background-color: #567c8d; /* Change to blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Filter Bar Styles */
+.filter-bar {
+    padding: 15px;
+    background-color: #f5efeb;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.filter-bar input,
+.filter-bar select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.filter-bar input:focus,
+.filter-bar select:focus {
+    border-color: #2f4156; /* Highlight border on focus */
+}
+
+/* Collection Section Styles */
+.collection {
+    padding: 20px;
+    background-color: #c8d9e6;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.collection h2 {
+    margin-bottom: 15px;
+    color: #567c8d;
+    font-size: 1.8em; /* Larger font for collection titles */
+    text-align: center; /* Centered title */
+}
+
+/* Product Item Styles */
+.item {
+    display: inline-block;
+    width: 250px; /* Increased width for better display */
+    margin: 15px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f5efeb;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transform and shadow effects */
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.colors {
+    margin: 10px 0;
+}
+
+.color {
+    display: inline-block;
+    width: 25px; /* Slightly larger color circles */
+    height: 25px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 1px solid #000; /* Add border for visibility */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add shadow transition */
+}
+
+.color:hover {
+    transform: scale(1.2); /* Scale up color circle on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.sold-out {
+    opacity: 0.6; /* Slightly transparent for sold-out items */
+}
+
+.sold-out-text {
+    color: red; /* Red color for sold-out text */
+    font-weight: bold;
+    margin-top: 10px; /* Space above sold-out text */
+}
+
+.price {
+    font-size: 1.2em;
+    color: #2f4156; /* Green color for price */
+    margin: 10px 0;
+}
+
+.rating {
+    color: #2f4156; /* Yellow for rating stars */
+    margin: 5px 0;
+}
+
+/* Cart Section Styles */
+.cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f5efeb;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 250px; /* Fixed width for cart */
+}
+
+.cart h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cart-items {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2f4156; /* Dark footer for consistency */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #f5efeb;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #c8d9e6; /* Change color on hover */
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f5efeb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.newsletter button:hover {
+    background-color: #c8d9e6; /* Darken button on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .item {
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Adjust margins */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center;
+    }
+
+    .filter-bar {
+        flex-direction: column; /* Stack filters vertically */
+    }
+
+    .filter-bar input,
+    .filter-bar select {
+        margin: 10px 0; /* Spacing for stacked elements */
+        width: 100%; /* Full width for inputs */
+    }
+
+    .cart {
+        width: 90%; /* Full width on mobile */
+        right: 5%; /* Center cart on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; /* Stack header elements vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation items */
+        margin-top: 10px; /* Space between logo and nav */
+    }
+
+    .cart {
+        right: 2%; /* Adjust cart position */
+    }
+}
+
+/* Additions for Accessibility */
+a {
+    outline: none; /* Remove default outline for links */
+}
+
+a:focus {
+    outline: 2px dashed #007bff; /* Custom outline for accessibility */
+}
+ 7 changes: 7 additions & 0 deletions7  
+untitled.markdown
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,7 @@
+Untitled
+--------
+
+
+A [Pen](https://codepen.io/Meryam-Darwish/pen/ZEgxBZp) by [Meryam Darwish](https://codepen.io/Meryam-Darwish) on [CodePen](https://codepen.io).
+
+[License](https://codepen.io/license/pen/ZEgxBZp).
